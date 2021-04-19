@@ -1,0 +1,28 @@
+<h1> Heroe Componente works! </h1>
+
+<h2> {{ nombre }} </h2>
+
+<dl>
+
+    <td> Nombre: </td>
+    <dd> {{ nombre }} </dd>
+
+    <td> Edad: </td>
+    <dd> {{ edad }} </dd>
+
+    <td> Capitalizado: </td>
+    <dd> {{ nombreCapitalizado }} </dd>
+
+    <td> Desc: </td>
+    <dd> {{ obtenerNombre() }} </dd>
+
+
+</dl>
+
+<button (click) = cambiarNombre()>
+    Cambiar Héroe
+</button>
+
+<button (click) = cambiarEdad()>
+    Cambiar Edad
+</button>
